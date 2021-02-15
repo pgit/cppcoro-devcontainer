@@ -1,0 +1,15 @@
+{
+    "cmake.configureOnOpen": true,
+    "cmake.environment": {
+        // We configure clang-10 as our default compiler.
+        // "CC": "/usr/bin/clang-12",
+        // "CXX": "/usr/bin/clang++-12",
+        // "CXXFLAGS": "-stdlib=libc++ -fcoroutines-ts"
+      },
+      "cmake.configureArgs": [
+          // "CMAKE_CXX_STANDARD", "c++2a"
+    ],
+    "files.associations": {
+        "type_traits": "cpp"
+    }
+}
