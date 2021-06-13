@@ -40,8 +40,8 @@ ENV DEBIAN_FRONTEND=
 #
 # Boost
 #
-ARG BOOST_VERSION=1_75_0
-RUN wget https://dl.bintray.com/boostorg/release/1.75.0/source/boost_${BOOST_VERSION}.tar.bz2 \
+ARG BOOST_VERSION=1_76_0
+RUN wget https://boostorg.jfrog.io/artifactory/main/release/1.76.0/source/boost_${BOOST_VERSION}.tar.bz2 \
     && tar xjvf boost_${BOOST_VERSION}.tar.bz2 \
     && rm boost_${BOOST_VERSION}.tar.bz2 \
     && cd boost_${BOOST_VERSION} \
