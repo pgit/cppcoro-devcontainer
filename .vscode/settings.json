@@ -11,5 +11,6 @@
     ],
     "files.associations": {
         "type_traits": "cpp"
-    }
+    },
+    "clangd.path": "/usr/lib/llvm-12/bin/clangd"
 }
