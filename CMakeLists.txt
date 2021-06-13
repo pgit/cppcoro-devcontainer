@@ -16,6 +16,9 @@ set(CMAKE_CXX_FLAGS "-stdlib=libc++ -fcoroutines-ts")
 project(coro-test)
 add_executable(coro-test main.cpp)
 
+add_executable(echo refactored_echo_server.cpp)
+target_link_libraries(echo pthread)
+
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 include(CPack)
